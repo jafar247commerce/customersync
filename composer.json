@@ -1,0 +1,24 @@
+{
+    "name": "jafar247commerce/customersync",
+    "description": "Sync all magento customers with third party Api within magento2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jafar Pinjar",
+            "email": "jafar@247commerce.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+	"prefer-stable": true,
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Tfscommerce\\Customersync\\": ""
+        }
+    }
+}
